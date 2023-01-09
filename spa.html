@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="text/html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="awesome spa  for your Relaxation and beautfication of the body">
+  <!--Custom stylesheet-->
+  <link rel="stylesheet" href="./styles/spa.css" />
+  <!--Fontawesome-->
+  <link rel="stylesheet" href="./all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" charset="utf-8"></script>
+  <!--Box icon-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./img/fav-icon.png" type="image/x-icon">
+  <title>PezzySpa</title>
+</head>
+
+<body>
+  <!--Pre-Loader-->
+  <div class="loader" id="loader">
+    <img src="./img/loader.gif" class="gif-img">
+  </div>
+  <!--header-->
+  <header>
+    <!--Nav-->
+    <div class="nav container">
+      <!--logo-->
+      <a href="#"><img src="./img/logo-2.png" class="logo" /></a>
+      <!--Navbar-->
+      <div class="navbar">
+        <li><a href="#about" class="nav-link">About us</a></li>
+        <li><a href="#service" class="nav-link">Service</a></li>
+        <li><a href="#Gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#testimonial" class="nav-link">Testimonial</a></li>
+        <li><a href="#contact" class="nav-link">Contact us</a></li>
+        <a href="#appoint" class="register-btn btn">Register</a>
+      </div>
+      <!--Menu -->
+      <div class="menu-icon">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </header>
+
+  <!--Home-->
+  <section class="home" id="home">
+    <div class="home-data container">
+      <!--home-text-->
+      <div class="home-text">
+        <h3>Welcome to Pezzy Spa</h3>
+        <h2>Health And<br> Relaxation</h2>
+        <div class="home-btns">
+          <a href="" class="book-btn btn">Book Now</a>
+          <a href="" class="explore-btn btn">Explore</a>
+        </div>
+        <!--home image-->
+        <div class="home-img">
+          <img src="./img/home.jpg">
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-info-box">
+            <i class='bx bxs-map bx-flip-horizontal bx-tada'></i>
+            <span>232 street, Lagos State. Nigeria</span>
+          </div>
+          <div class="contact-info-box">
+            <i class='bx bxs-phone bx-tada'></i>
+            <span>+234 0866 7430 39</span>
+          </div>
+          <div class="contact-info-box">
+            <i class='bx bxs-envelope bx-tada'></i>
+            <span>helpline@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <!--2nd home image for mobile responsive-->
+      <div class="home-bg">
+        <img src="./img/home.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!--About-->
+  <section class="about container" id="about">
+    <!--About text-->
+    <div class="about-text">
+      <!--heading-->
+      <h2 class="heading">About Us</h2>
+      <h1>Your Beauty Skin Is our Priority</h1>
+      <p>we provide the best spa services that guarantees and make you looks heaither and beautiful</p>
+      <a href="" class="learn-more">
+        <span>Learn More</span>
+        <i class='bx bx-right-arrow-alt bx-tada'></i>
+      </a>
+    </div>
+    <!--About Data-->
+    <div class="about-data">
+      <!--Box 1-->
+      <div class="about-box">
+        <img src="./img/about-1.jpg" alt="">
+        <div class="about-overlay">
+          <div class="overlay-text">
+            <h2>Skin Care</h2>
+            <p>40 Mintues - $170</p>
+          </div>
+        </div>
+      </div>
+      <!--Box 2-->
+      <div class="about-box">
+        <img src="./img/about-2.jpg" alt="">
+        <div class="about-overlay">
+          <div class="overlay-text">
+            <h2>Face Massage</h2>
+            <p>20 Mintues - $190</p>
+          </div>
+        </div>
+      </div>
+      <!--Box 3-->
+      <div class="about-box">
+        <img src="./img/about-3.jpg" alt="">
+        <div class="about-overlay">
+          <div class="overlay-text">
+            <h2>Back Massage</h2>
+            <p>30 Mintues - $140</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Services-->
+  <section class="services container" id="service">
+    <!--service content-->
+    <div class="swiper services-content">
+      <div class="swiper-wrapper">
+        <!--Box 1-->
+        <div class="swiper-slide">
+          <div class="service-box">
+            <div class="ser-img"><img src="./img/service-1.jpg" alt="">
+            </div>
+            <div class="box-data">
+              <h2 class="heading">our services</h2>
+              <h2>Facial Treatment</h2>
+              <p>A facial is a skin care treatment that<br> involves exfoliating and cleansing to eliminate dirt</p>
+              <div class="package">
+                <div class="p-box">
+                  <i class='bx bxs-badge-check bx-tada'></i>
+                  <span>1 hour - $170%</span>
+                </div>
+                <div class="p-box">
+                  <i class='bx bxs-badge-check bx-tada'></i>
+                  <span>30 Mintues - $120%</span>
+                </div>
+                <!--Btn-->
+                <a href="#" class="book-now btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Box 2-->
+        <div class="swiper-slide">
+          <div class="service-box">
+            <div class="ser-img"><img src="./img/service-2.jpg" alt="">
+            </div>
+            <div class="box-data">
+              <h2 class="heading">our services</h2>
+              <h2>Hair Stylish</h2>
+              <p>A hairstyle, hairdo, haircut or coiffure refers to the styling of hair, usually on the human scalp.</p>
+              <div class="package">
+                <div class="p-box">
+                  <i class='bx bxs-badge-check bx-tada'></i>
+                  <span>25 Minutes - $10%</span>
+                </div>
+                <div class="p-box">
+                  <i class='bx bxs-badge-check bx-tada'></i>
+                  <span>35 Mintues - $65%</span>
+                </div>
+                <!--Btn-->
+                <a href="#" class="book-now btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Box 3-->
+        <div class="swiper-slide">
+          <div class="service-box">
+            <div class="ser-img"><img src="./img/service-3.jpg" alt="">
+            </div>
+            <div class="box-data">
+              <h2 class="heading">our services</h2>
+              <h2>Manicure</h2>
+              <p>A manicure is a mostly cosmetic beauty <br>treatment for the fingernails performed at home or in a
+                salon</p>
+              <div class="package">
+                <div class="p-box">
+                  <i class='bx bxs-badge-check bx-tada'></i>
+                  <span>20 Mintues - $25%</span>
+                </div>
+                <div class="p-box">
+                  <i class='bx bxs-badge-check bx-tada'></i>
+                  <span>40 Mintues - $75%</span>
+                </div>
+                <!--Btn-->
+                <a href="#" class="book-now btn">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--swiper-->
+    <div class=" slider-btns">
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <!-- gallery section starts  -->
+  <section class="gallery" id="Gallery" class="container">
+
+    <div class="heading-h">
+      <h1>Our Gallery</h1>
+    </div>
+
+    <div class="lightbox">
+      <a href="img/spa 1 (2).png"><img src="img/spa 1 (2).png" alt=""></a>
+      <a href="img/spa 2.png"><img src="img/spa 2.png" alt=""></a>
+      <a href="img/beauty-spa.jpg"><img src="img/beauty-spa.jpg" alt=""></a>
+      <a href="img/spa-4.jpeg"><img src="img/spa-4.jpeg" alt=""></a>
+      <a href="img/spa-5.jpg"><img src="img/spa-5.jpg" alt=""></a>
+      <a href="img/spa-6.jpg"><img src="img/spa-6.jpg" alt=""></a>
+    </div>
+  </section>
+
+  <section class="appoint container" id="appoint">
+    <h5>Book An Appointment</h5>
+    <p>
+      Book an Appointment with our specialist<br> and get the best Treatment
+    </p>
+    <div id="container">
+      <div class="input-container">
+        <i class='bx bxs-book'></i>
+        <input class="input-field" type="text" name="first name" placeholder="Enter Your Name" required />
+      </div>
+      <div class="input-container">
+        <i class='bx bxs-phone'></i>
+        <input class="input-field" type="phone" name="phone-number" placeholder="Phone Number" required />
+      </div>
+      <div class="input-container">
+        <i class='bx bx-calendar'></i>
+        <input class="input-field" type="date" name="date" required>
+      </div>
+      <div class="input-container">
+        <i class='bx bxs-envelope'></i>
+        <input class="input-field" type="email" name="Email" placeholder="Email Address" required />
+      </div>
+      <div class="input-container">
+        <i class='bx bx-child'></i>
+        <input class="input-field" type="Age" name="Age" placeholder="Your Age" required />
+      </div>
+      <div class="input-container">
+        <i class='bx bxs-package'></i>
+        <select class="select">
+          <option value="package">select package</option>
+          <option value="package">select package</option>
+          <option value="package">select package</option>
+          <i class='bx bx-package bx-tada'></i>
+        </select>
+      </div>
+    </div>
+    <div id="submit">
+      <input type="submit" value="Book Appointment" id="submit">
+    </div>
+  </section>
+  <!--Testimonial-->
+  <section class="testimonial container" id="testimonial">
+    <h2 class="heading">Testimonials</h2>
+    <h3>Read What our Beloved <br> Customer Say About Us </h3>
+    <!--Testimonial-Data-->
+    <div class="testimonial-data">
+      <!-- BOX 1-->
+      <div class="t-box">
+        <div class="t-img">
+          <img src="./img/testimonial-1.jpg">
+          <i class='bx bxs-quote-alt-right bx-tada'></i>
+        </div>
+        <h2>Jane Parker</h2>
+        <p>A great place to get the best treatments, So luxurious and Relaxing no matter what treatment.</p>
+      </div>
+      <!-- BOX 2-->
+      <div class="t-box">
+        <div class="t-img">
+          <img src="./img/testimonial-2.jpg">
+          <i class='bx bxs-quote-alt-right bx-tada'></i>
+        </div>
+        <h2>Theresa Jodan</h2>
+        <p>very nice service from staff, the place is comfy, with many sofas, it is a perfect place, to come.</p>
+      </div>
+      <!-- BOX 3-->
+      <div class="t-box">
+        <div class="t-img">
+          <img src="./img/testimonial-3.jpg">
+          <i class='bx bxs-quote-alt-right bx-tada'></i>
+        </div>
+        <h2>Erma Brandt</h2>
+        <p>i always goes there for my treatment. i love the staff & services, professional & stunning services.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--footer -->
+  <section class="footer" id="contact">
+    <div class="footer-container container">
+      <div class="footer-box">
+        <a href="#" class="logo">PezzySpa</a>
+        <div class="social">
+          <a href="#"><i class='bx bxl-facebook bx-tada'></i></a>
+          <a href="#"><i class='bx bxl-twitter bx-tada'></i></a>
+          <a href="#"><i class='bx bxl-instagram bx-tada'></i></a>
+          <a href="#"><i class='bx bxl-youtube bx-tada'></i></a>
+        </div>
+      </div>
+      <div class="footer-box">
+        <h3>Services</h3>
+        <a href="">Manicure</a>
+        <a href="">Skin</a>
+        <a href="">Hair</a>
+      </div>
+      <div class="footer-box">
+        <h3>Legal</h3>
+        <a href="">Privacy</a>
+        <a href="">Refund Policy</a>
+        <a href="">Faq</a>
+      </div>
+      <div class="footer-box">
+        <h3>Contact</h3>
+        <p>Germany</p>
+        <p>Usa</p>
+        <p>Nigeria</p>
+      </div>
+    </div>
+  </section>
+  <div class="copyright">
+    <p>&#169 PezzySpa 2022</p>
+  </div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+  <!--link to Js-->
+  <script src="spa.js"></script>
+</body>
+
+</html>
